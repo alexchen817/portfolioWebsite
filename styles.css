@@ -8,10 +8,10 @@
 }
 
 :root {
-    --bg-color: #080808;
-    --second-bg-color: #101010;
+    --bg-color: #2f313a;
+    --second-bg-color: #2f313a;
     --text-color: white;
-    --main-color: #ea580c;
+    --main-color: #c40a65;
 }
 html {
     font-size: 60%;
@@ -57,8 +57,8 @@ body {
 span {
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #c40a65 5%,
+        #0f1cd8 121%
     );
     background-clip: text;
     color: transparent;
@@ -269,7 +269,10 @@ section {
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
-    transition: 0.3 ease;
+    transition: 0.3s ease;
+    height: 500px;
+    text-decoration: none; /* Remove underline from links */
+    color: var(--text-color); /* Set the text color */
 }
 
 .project-card:hover{
@@ -280,6 +283,7 @@ section {
 
 .project-card img {
     max-width: 300px;
+    max-height: 200px;
     border-radius: 2em;
     object-fit: cover;
 }
@@ -290,11 +294,16 @@ section {
 
 .project-card p {
     font-size: 1.6rem;
+    flex-grow: 1;
 }
 
+.project-card p {
+    margin-top: auto;
+}
 .contact {
     background-color: var(--bg-color);
 }
+
 
 .contact h2 {
     font-size: 3rem;
