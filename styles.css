@@ -11,7 +11,7 @@
     --bg-color: #2f313a;
     --second-bg-color: #2f313a;
     --text-color: white;
-    --main-color: #c40a65;
+    --main-color: #ffe969;
 }
 html {
     font-size: 60%;
@@ -57,8 +57,9 @@ body {
 span {
     background: linear-gradient(
         270deg,
-        #c40a65 5%,
-        #0f1cd8 121%
+
+        #915900 5%,
+        #ffe969 70% 
     );
     background-clip: text;
     color: transparent;
