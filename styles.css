@@ -207,8 +207,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10rem 5%; /* Adjust padding to ensure the section is centered */
-    text-align: center; /* Center the text */
+    padding: 10rem 5%;
+    text-align: center; 
 }
 
 .tools h2 {
@@ -267,7 +267,12 @@ section {
 }
 
 .projects {
-    background: var(--second-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 5%; 
+    text-align: center; 
 }
 .projects h2 {
     font-size: 5rem; 
