@@ -202,6 +202,32 @@ section {
     background-color: var(--second-bg-color);
 }
 
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 5%; /* Adjust padding to ensure the section is centered */
+    text-align: center; /* Center the text */
+}
+
+.tools h2 {
+    font-size: 5rem; 
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.tools .logos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    gap: 2rem; 
+}
+
+.tools .logos img {
+    width: 100px;
+    height: auto;
+}
 .about-img img {
     width: 32vw;
     border-radius: 50%;
@@ -300,38 +326,6 @@ section {
 
 .project-card p {
     margin-top: auto;
-}
-.contact {
-    background-color: var(--bg-color);
-}
-
-
-.contact h2 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    color: var(--text-color);
-}
-
-.contact form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 5rem 0;
-    text-align: center;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-    width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main-color);
-    margin: 1.5rem 0;
-    resize: none;
 }
 
 .footer {

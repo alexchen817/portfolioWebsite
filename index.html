@@ -6,7 +6,8 @@
     <title>Alexander's Website</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> <!-- Added Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
 
@@ -20,9 +21,9 @@
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
+            <a href="#tools">Tools/Technologies</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Resume</a>
-            <a href="#contact">Contact</a>
+            <a href="#resume">Resume</a>
         </nav>
 
     </header>
@@ -71,75 +72,55 @@
 
     </section>
 
+    <section class="tools" id="tools">
+        <h2 class="heading">Tools/Technologies</h2>
+        <div class="logos"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />           
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" />
+        </div>
+    </section>
+    
+    
     <section class="projects" id="projects">
-        <h2 class = "heading">Projects</h2>
+        <h2 class="heading">Projects</h2>
 
         <div class="projects-box">
             <a href="https://github.com/ssss-sfu/2025-dreamhacks" class="project-card">
                 <img src="attachments/dreamhacks.webp" alt="">
-                <h3>SystemsHacks - DreamHacks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsa iste ea maxime, aspernatur obcaecati, animi beatae quibusdam, 
-                    repellat corporis doloribus incidunt doloremque possimus fuga
-                    laboriosam nobis cupiditate accusantium molestiae aliquid.</p>
+                <h3>SystemsHacks Website</h3>
+                <p> Created website using HTML, CSS, and JavaScript for 
+                    2025 SystemsHacks annual hackathon</p>
             </a>
 
             <a href="https://github.com/alexanderchen817/portfolioWebsite" class="project-card">
                 <img src="/attachments/personalPortfoliopic.webp" alt="">
                 <h3>Personal Portfolio</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsa iste ea maxime, aspernatur obcaecati, animi beatae quibusdam, 
-                    repellat corporis doloribus incidunt doloremque possimus fuga
-                    laboriosam nobis cupiditate accusantium molestiae aliquid.</p>
+                <p>Personal portfolio to display projects. Made with HTML, CSS, and Javascript and deployed via Vercel</p>
             </a>
 
             <a href="#" class="project-card">
                 <img src="project3.png" alt="">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsa iste ea maxime, aspernatur obcaecati, animi beatae quibusdam, 
-                    repellat corporis doloribus incidunt doloremque possimus fuga
-                    laboriosam nobis cupiditate accusantium molestiae aliquid.</p>
+                <h3>Canvas-Schedule-Bot</h3>
+                <p>Discord bot to integrate Canvas due dates and reminders with google calendar</p>
             </a>
             
             <a href="#" class="project-card">
                 <img src="project4.png" alt="">
-                <h3>Project 4</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsa iste ea maxime, aspernatur obcaecati, animi beatae quibusdam, 
-                    repellat corporis doloribus incidunt doloremque possimus fuga
-                    laboriosam nobis cupiditate accusantium molestiae aliquid.</p>
+                <h3>Chaos Versus Order</h3>
+                <p>A fun, dynamic 5-in-a-row game made in C++ using via CLI against a smart bot</p>
             </a>
         </div>
     </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="#">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Email">
-                </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Phone number">
-                    <input type="text" placeholder="Subject">
-                </div>
-            </div>
-
-            <div class="input-group-2">
-                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-        </form>
-    </section>
-
-    <section class="Resume">
-
-    </section>
-
-
+    
     <footer class="footer">
         <div class="social-icons">
             <a href="https://github.com/alexanderchen817">
@@ -156,10 +137,10 @@
                 <a href="#about">About Me</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#tools">Projects</a>
             </li>
             <li>
-                <a href="#contact">Contact Me</a>
+                <a href="#projects">Projects</a>
             </li>
         </ul>
 
